@@ -91,3 +91,10 @@ details p:last-child { margin-bottom: 0; }
 .site-footer .wrap { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
 .site-footer nav { display: flex; gap: 16px; }
 .site-footer a { color: var(--muted); }
+
+/* Table of contents */
+.toc { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px 18px 6px; margin: 24px 0 8px; font-size: 15px; }
+.toc p { margin-bottom: 8px; }
+.toc ol { padding-left: 22px; }
+.toc li { margin-bottom: 4px; }
+h2[id] { scroll-margin-top: 16px; }

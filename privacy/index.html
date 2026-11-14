@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Privacy Policy · ClearReceipt</title>
-  <meta name="description" content="How ClearReceipt handles your data: receipts stay on your device; ads are provided by Google AdMob.">
+  <meta name="description" content="How ClearReceipt handles your information: receipts stay on your device, no account is required, and ads are provided by Google AdMob.">
   <link rel="icon" href="../assets/icon.png">
   <link rel="stylesheet" href="../assets/style.css">
 </head>
@@ -23,80 +23,194 @@
   <main>
     <div class="wrap">
       <h1>Privacy Policy</h1>
-      <p class="meta">Effective November 13, 2026</p>
+      <p class="meta">Effective November 14, 2026</p>
 
       <div class="callout">
-        <p><strong>The short version:</strong> your receipts, photos, and amounts stay on your iPhone. We don't run a server, we don't have accounts, and we never see your receipts. The app shows ads from Google AdMob, and Google collects some device data to serve them. You control ad tracking with the prompts the app shows you.</p>
+        <p><strong>The short version:</strong> ClearReceipt has no accounts and no servers. Your receipts, receipt photos, and amounts are read and stored only on your iPhone, and we never receive them. The app shows ads from Google AdMob, and Google collects some device information to serve them. You decide whether ads can use tracking. If you email us for support, we receive your message.</p>
       </div>
 
-      <p>This policy explains how the ClearReceipt iOS app (“ClearReceipt”, “the app”) handles information. ClearReceipt is developed by {{DEVELOPER_NAME}} (“we”, “us”). If you have questions, contact us at <a href="mailto:{{CONTACT_EMAIL}}">{{CONTACT_EMAIL}}</a>.</p>
+      <nav class="toc" aria-label="Contents">
+        <p><strong>Contents</strong></p>
+        <ol>
+          <li><a href="#about">What is this Privacy Policy and what does it cover?</a></li>
+          <li><a href="#collect">What information do we collect?</a></li>
+          <li><a href="#use">How do we use your information?</a></li>
+          <li><a href="#share">How is your information shared with third parties?</a></li>
+          <li><a href="#tech">Identifiers and similar technologies</a></li>
+          <li><a href="#manage">How can you manage or delete your information and exercise your rights?</a></li>
+          <li><a href="#retain">How long do we keep your information?</a></li>
+          <li><a href="#transfer">How is information transferred internationally?</a></li>
+          <li><a href="#legal">How do we respond to legal requests and prevent harm?</a></li>
+          <li><a href="#security">How is your information protected?</a></li>
+          <li><a href="#children">Children's privacy</a></li>
+          <li><a href="#changes">How will you know the policy has changed?</a></li>
+          <li><a href="#eea">Notice for users in the EEA, UK, and Switzerland</a></li>
+          <li><a href="#us">Notice for users in US states with privacy laws</a></li>
+          <li><a href="#contact">How to contact us with questions</a></li>
+        </ol>
+      </nav>
 
-      <h2>1. Information that stays on your device</h2>
-      <p>Everything you put into ClearReceipt is stored only on your device, in the app's private storage:</p>
+      <h2 id="about">1. What is this Privacy Policy and what does it cover?</h2>
+      <p>This Privacy Policy explains what information is collected when you use the ClearReceipt app for iPhone (“ClearReceipt” or “the app”), how it is used and shared, and the choices you have. ClearReceipt is developed by {{DEVELOPER_NAME}} (“we”, “us”, “our”).</p>
+      <p>It covers the app, this website, and messages you send to our support address. It does not cover Apple's App Store, iOS, or Google's services, which are governed by their own privacy policies.</p>
+      <p>ClearReceipt does not have user accounts. You never sign up, sign in, or give us your name, email address, or phone number to use the app.</p>
+
+      <h2 id="collect">2. What information do we collect?</h2>
+
+      <h3>Information you create in the app (stays on your device)</h3>
+      <p>When you use ClearReceipt, you create information that is stored only in the app's private storage on your device. We never receive it.</p>
       <ul>
-        <li><strong>Receipt details:</strong> store or merchant name, date, total, currency, category, line items, and notes.</li>
-        <li><strong>Receipt images:</strong> photos you take or import of your receipts.</li>
+        <li><strong>Receipt details:</strong> store or merchant name, date, total, currency, category, line items (description, quantity, price), and notes.</li>
+        <li><strong>Receipt images:</strong> photos you take with the camera or choose from your photo library.</li>
+        <li><strong>Text read from receipts:</strong> the app uses Apple's on-device Vision framework to read text from your receipt images. This happens on your iPhone, and images and text are not uploaded.</li>
         <li><strong>Preferences:</strong> settings such as your default currency.</li>
       </ul>
-      <p>Text recognition (reading the text on a receipt) is performed on your device using Apple's Vision framework. Receipt images and their contents are not uploaded to us or to anyone else.</p>
-      <p>We do not have access to this information. If your device is set up to back up with iCloud or to a computer, Apple includes app data in those backups under Apple's own privacy terms.</p>
 
-      <h2>2. Camera and photo library</h2>
-      <p>The app asks for camera access so you can photograph receipts, and photo library access so you can import an existing receipt photo. The app only reads the photo you choose and never changes or deletes anything in your photo library. You can change these permissions at any time in the iOS Settings app.</p>
+      <h3>Information from your device's permissions</h3>
+      <ul>
+        <li><strong>Camera:</strong> used only while you are photographing a receipt.</li>
+        <li><strong>Photo library:</strong> used only to read the single photo you choose to import. The app never adds, changes, or deletes anything in your photo library.</li>
+      </ul>
+      <p>The app does not request your precise location, contacts, microphone, health data, or other device permissions.</p>
 
-      <h2>3. Advertising (Google AdMob)</h2>
-      <p>ClearReceipt is free and supported by banner ads provided by Google AdMob. To deliver ads, measure their performance, and prevent fraud, Google's software in the app may collect:</p>
+      <h3>Information collected by our advertising partner</h3>
+      <p>The app displays banner ads from Google AdMob. Google's software in the app may collect the following information when ads are shown:</p>
       <div class="table-scroll">
         <table>
           <thead>
-            <tr><th>Data</th><th>Details</th></tr>
+            <tr><th>Category</th><th>Examples</th></tr>
           </thead>
           <tbody>
-            <tr><td>Device identifiers</td><td>The Advertising Identifier (IDFA), <em>only</em> if you allow tracking, and other app or device identifiers</td></tr>
-            <tr><td>Device &amp; network information</td><td>Device model, operating system, language, and IP address</td></tr>
-            <tr><td>Approximate location</td><td>General location derived from your IP address (not GPS)</td></tr>
-            <tr><td>Ad interactions</td><td>Which ads were shown and whether they were tapped</td></tr>
-            <tr><td>Diagnostics</td><td>Information about crashes or performance of the ad software</td></tr>
+            <tr><td>Device identifiers</td><td>The Advertising Identifier (IDFA), only if you allow tracking; other identifiers such as an app-instance ID</td></tr>
+            <tr><td>Device and network information</td><td>Device model, operating system version, language, time zone, carrier, and IP address</td></tr>
+            <tr><td>Approximate location</td><td>General location (such as city or region) derived from your IP address; not GPS</td></tr>
+            <tr><td>Ad activity</td><td>Ads shown, ad taps, and ad performance</td></tr>
+            <tr><td>Diagnostics</td><td>Crash and performance information about the ad software</td></tr>
           </tbody>
         </table>
       </div>
-      <p>Google processes this information under its own policies. Learn more in <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
-      <p>This information is never combined with your receipts, which stay on your device.</p>
+      <p>We do not receive this information in a form that identifies you. We see only aggregated reports, such as how many ads were shown.</p>
 
-      <h2>4. Your choices about ads</h2>
+      <h3>Information you send us</h3>
+      <p>If you contact us by email, we receive your email address, your message, and anything you choose to attach, such as a screenshot or receipt photo.</p>
+
+      <h3>Information from Apple</h3>
+      <p>Apple provides developers with aggregated App Store and app usage statistics, and with crash reports from users who have chosen to share analytics with app developers in iOS settings. This information does not identify you to us.</p>
+
+      <h2 id="use">3. How do we use your information?</h2>
       <ul>
-        <li><strong>Tracking permission:</strong> iOS asks whether ClearReceipt may track you across other companies' apps and websites. If you choose “Ask App Not to Track”, the IDFA is not shared and ads are not personalized based on it. You can change this in Settings › Privacy &amp; Security › Tracking.</li>
-        <li><strong>Consent (EEA, UK, Switzerland):</strong> if you are in these regions, the app asks for your consent before personalized ads are shown, using Google's consent tool. Without consent, Google may show limited or non-personalized ads.</li>
-        <li><strong>US state privacy rights:</strong> where applicable, you can opt out of the “sale” or “sharing” of personal information for targeted advertising using the privacy options shown in the app.</li>
+        <li><strong>To provide the app's features:</strong> on your device, the app uses your receipt information to read receipts, show and search your list, filter by date, and calculate totals. This happens only on your device.</li>
+        <li><strong>To show ads:</strong> Google uses the information described above to deliver ads, limit how often you see the same ad, measure ad performance, and, only where you allow it, personalize ads.</li>
+        <li><strong>To prevent fraud and keep advertising safe:</strong> Google uses device and ad information to detect invalid traffic and abuse.</li>
+        <li><strong>To provide support:</strong> we use the information you send us to answer your questions and fix problems.</li>
+        <li><strong>To improve the app:</strong> we use aggregated statistics and crash reports from Apple, and feedback you send us, to fix bugs and improve features.</li>
+      </ul>
+      <p>We do not use your receipts for advertising, and we never combine information from Google with your receipts. We don't have your receipts.</p>
+
+      <h2 id="share">4. How is your information shared with third parties?</h2>
+      <p>Your receipts and receipt images are never shared by the app. Information is shared only as follows:</p>
+      <ul>
+        <li><strong>Advertising partner:</strong> Google receives the information described in section 2 directly from the app to serve and measure ads. Google processes it under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>; see also <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a>.</li>
+        <li><strong>Apple:</strong> Apple operates the App Store and provides iOS features such as iCloud Backup. If you have iCloud Backup or computer backups turned on, your device backups include the app's data under Apple's privacy terms.</li>
+        <li><strong>Email provider:</strong> support messages you send are stored by our email provider.</li>
+        <li><strong>Legal and safety reasons:</strong> as described in <a href="#legal">section 9</a>.</li>
+        <li><strong>Change of ownership:</strong> if the app is sold or transferred, information we hold (such as support emails) may be transferred to the new owner, who must respect this policy.</li>
+      </ul>
+      <p>We do not sell your personal information for money. See <a href="#us">section 14</a> for how US state laws treat advertising-related sharing.</p>
+
+      <h2 id="tech">5. Identifiers and similar technologies</h2>
+      <p>The app does not use browser cookies. Google's advertising software uses device identifiers and local storage on your device, which work similarly to cookies, to deliver and measure ads and remember your consent choices.</p>
+      <ul>
+        <li><strong>Advertising Identifier (IDFA):</strong> available to Google only if you allow tracking when iOS asks.</li>
+        <li><strong>Consent records:</strong> your ad consent choices are stored on your device so you aren't asked repeatedly.</li>
+      </ul>
+      <p>This website does not use cookies, analytics, or tracking. It is hosted by GitHub Pages, which may log visitors' IP addresses for security under <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's Privacy Statement</a>.</p>
+
+      <h2 id="manage">6. How can you manage or delete your information and exercise your rights?</h2>
+
+      <h3>Your receipts</h3>
+      <p>Because your receipts exist only on your device, you control them directly:</p>
+      <ul>
+        <li><strong>View and edit:</strong> open any receipt to see or change its details.</li>
+        <li><strong>Delete one receipt:</strong> use Delete on the receipt's detail screen.</li>
+        <li><strong>Delete receipt images only:</strong> Settings › Clear Stored Images.</li>
+        <li><strong>Delete everything:</strong> Settings › Erase All Data removes every receipt, all images, and your preferences.</li>
+        <li><strong>Remove the app:</strong> deleting ClearReceipt removes all of its data from your device. Copies in your device backups are managed through Apple.</li>
       </ul>
 
-      <h2>5. What we don't do</h2>
+      <h3>Advertising choices</h3>
       <ul>
-        <li>We don't require an account or collect your name, email, or contact details through the app.</li>
-        <li>We don't use analytics or crash-reporting services beyond what Apple provides to developers in anonymized, aggregated form if you have chosen to share diagnostics with app developers.</li>
-        <li>We don't sell your receipt data. We never receive it.</li>
+        <li><strong>Tracking:</strong> choose “Ask App Not to Track” when prompted, or change it later in iOS Settings › Privacy &amp; Security › Tracking.</li>
+        <li><strong>Consent:</strong> where required, the app asks for your consent to personalized ads and lets you change your choice later.</li>
       </ul>
 
-      <h2>6. Keeping and deleting your data</h2>
-      <p>Your receipts stay on your device until you delete them. You can:</p>
+      <h3>Device permissions</h3>
+      <p>Turn camera or photo access on or off at any time in iOS Settings › ClearReceipt.</p>
+
+      <h3>Information you sent us</h3>
+      <p>You may ask us to access, correct, or delete your support emails by writing to <a href="mailto:{{CONTACT_EMAIL}}">{{CONTACT_EMAIL}}</a>. We will respond within the time required by law, generally 30 days.</p>
+
+      <h2 id="retain">7. How long do we keep your information?</h2>
       <ul>
-        <li>delete an individual receipt from its detail screen;</li>
-        <li>delete all stored receipt images with <strong>Settings › Clear Stored Images</strong>;</li>
-        <li>delete every receipt, image, and preference with <strong>Settings › Erase All Data</strong>;</li>
-        <li>delete the app, which removes all of its data from your device.</li>
+        <li><strong>Receipts, images, and preferences:</strong> on your device until you delete them, erase all data, or delete the app.</li>
+        <li><strong>Support emails:</strong> up to two years after our last exchange, unless you ask us to delete them sooner or we must keep them longer by law.</li>
+        <li><strong>Advertising information:</strong> retained by Google under its own retention policies; see <a href="https://policies.google.com/technologies/retention">How Google retains data</a>.</li>
       </ul>
 
-      <h2>7. Your rights</h2>
-      <p>Depending on where you live (for example under the GDPR in the EU/UK or state laws such as the CCPA in California), you may have rights to access, correct, delete, or restrict the use of your personal information, and to withdraw consent. Because your receipt data is only on your device, you can exercise these rights directly in the app as described above. For information collected by Google for advertising, see <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>, or contact us and we'll help where we can.</p>
+      <h2 id="transfer">8. How is information transferred internationally?</h2>
+      <p>Your receipts are not transferred anywhere; they stay on your device. Advertising information collected by Google may be processed in the United States and other countries where Google operates. Google relies on legal mechanisms such as the EU Standard Contractual Clauses and the EU-U.S. Data Privacy Framework. Support emails may be stored by our email provider outside your country.</p>
 
-      <h2>8. Children</h2>
-      <p>ClearReceipt is not directed to children under 13 (or the equivalent minimum age in your country), and we do not knowingly collect personal information from children.</p>
+      <h2 id="legal">9. How do we respond to legal requests and prevent harm?</h2>
+      <p>We may access, keep, or disclose information we hold (such as support emails) if we believe in good faith it is required by law, for example in response to a valid court order, or necessary to protect the rights, property, or safety of our users, us, or others.</p>
+      <p>Because your receipts are stored only on your device and we never receive them, we cannot provide them to anyone, including in response to a legal request.</p>
 
-      <h2>9. Changes to this policy</h2>
-      <p>If we change this policy, we'll update the effective date above and, for significant changes, let you know in the app or on this page.</p>
+      <h2 id="security">10. How is your information protected?</h2>
+      <p>Your receipt information is stored in the app's sandbox, which other apps cannot access, and is protected by iOS data protection when your device is locked with a passcode. Keep your device passcode secure and your software up to date. No method of storage or transmission is completely secure, but we limit risk by not collecting your receipts at all.</p>
 
-      <h2>10. Contact</h2>
-      <p>Questions about privacy? Email <a href="mailto:{{CONTACT_EMAIL}}">{{CONTACT_EMAIL}}</a>.</p>
+      <h2 id="children">11. Children's privacy</h2>
+      <p>ClearReceipt is not directed to children under 13 (or under 16 in the EEA and UK), and we do not knowingly collect personal information from children. If you believe a child has sent us personal information, contact us and we will delete it.</p>
+
+      <h2 id="changes">12. How will you know the policy has changed?</h2>
+      <p>We will post any changes on this page and update the effective date above. If changes are significant, we will also notify you in the app or in the App Store release notes before they take effect.</p>
+
+      <h2 id="eea">13. Notice for users in the EEA, UK, and Switzerland</h2>
+      <p>For the purposes of the GDPR and UK GDPR, {{DEVELOPER_NAME}} is the controller of information we receive (support emails). Google acts as an independent controller for information it collects for advertising.</p>
+      <h3>Legal bases for processing</h3>
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr><th>Purpose</th><th>Legal basis</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Showing personalized ads and accessing device identifiers</td><td>Your consent, which you can withdraw at any time</td></tr>
+            <tr><td>Showing non-personalized ads, ad measurement, and fraud prevention</td><td>Legitimate interests in funding a free app and keeping advertising safe, or your consent where required by law</td></tr>
+            <tr><td>Answering support requests</td><td>Legitimate interests in helping users and improving the app</td></tr>
+            <tr><td>Complying with legal obligations</td><td>Legal obligation</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <h3>Your rights</h3>
+      <p>You have the right to access, correct, delete, restrict, or object to the processing of your personal information, to data portability, and to withdraw consent at any time without affecting earlier processing. To exercise these rights for information we hold, email <a href="mailto:{{CONTACT_EMAIL}}">{{CONTACT_EMAIL}}</a>. For advertising information, you can also use <a href="https://myadcenter.google.com/">Google's My Ad Center</a>. You may lodge a complaint with your local data protection authority.</p>
+
+      <h2 id="us">14. Notice for users in US states with privacy laws</h2>
+      <p>This notice applies to residents of California and other US states with comprehensive privacy laws.</p>
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr><th>Category collected</th><th>Source</th><th>Disclosed to</th><th>“Sold” or “shared”?</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Identifiers (device and advertising identifiers, IP address; email address if you contact us)</td><td>Your device; you</td><td>Google (ads); our email provider</td><td>Advertising identifiers may be “shared” for targeted advertising</td></tr>
+            <tr><td>Internet or other electronic activity (ad interactions)</td><td>Your device</td><td>Google</td><td>May be “shared” for targeted advertising</td></tr>
+            <tr><td>Approximate geolocation (from IP address)</td><td>Your device</td><td>Google</td><td>May be “shared” for targeted advertising</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>We do not collect sensitive personal information, and your receipts are not collected at all. We do not sell personal information for money. Sending device identifiers to Google for personalized ads may count as “sharing” or “selling” under some state laws.</p>
+      <p><strong>Your rights:</strong> you may have the right to know, access, correct, and delete personal information, to opt out of its sale, sharing, or use for targeted advertising, and not to be discriminated against for exercising these rights. To opt out, choose “Ask App Not to Track” and decline personalized ads in the app's privacy options. For other requests, email <a href="mailto:{{CONTACT_EMAIL}}">{{CONTACT_EMAIL}}</a>. You may use an authorized agent, and we may need to verify your request. If we deny your request, you may appeal by replying to our decision.</p>
+
+      <h2 id="contact">15. How to contact us with questions</h2>
+      <p>If you have questions about this policy or your information, contact {{DEVELOPER_NAME}} at <a href="mailto:{{CONTACT_EMAIL}}">{{CONTACT_EMAIL}}</a>.</p>
     </div>
   </main>
 
